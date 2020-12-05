@@ -237,13 +237,16 @@ body {
 .site-header {
   background: 　 #9e0000;
   padding: 1em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  text-align: center ;
+  
 }
 .site-header a {
   color: white;
   text-decoration: none;
+}
+
+.site-header img {
+  max-width: 60px;
 }
 .site-header h1 {
   font-size: 1.5em;
@@ -262,17 +265,26 @@ body {
 }
 
 /* SITE-NAV */
+
+.site-nav {
+  position: absolute;
+  width: 100%;
+  padding-top: 1em;
+}
+
 .site-nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
   display: flex;
+  justify-content: center;
 }
 .site-nav a {
-  color: red;
+  color: white;
   display: inline-block;
   padding: 1em;
   line-height: 1;
+  
 }
 
 section {
@@ -281,12 +293,20 @@ section {
 
 /* HERO SECTION */
 .hero {
-  background-color: #ffcaca;
+  background-color: black;
+  background-image: url(../img/sunsetbackground.png);
+  background-size: cover;
+  background-position: center bottom;
   text-align: center;
   padding: 6em 0;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 .hero h1 {
   margin-bottom: 0.25em;
+  color: #fff;
 }
 .hero p {
   margin-bottom: 1em auto;
