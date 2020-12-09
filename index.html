@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sunset beach yoga</title>
 
 
-<!--GOOGLE FONTS-->   
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-<!-- MAIN CSS STYLES -->
+    <!--Abobe FONTS-->
+    <link rel="stylesheet" href="https://use.typekit.net/gne2wfp.css">
+
+    <!-- MAIN CSS STYLES -->
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
     <header class="site-header">
         <div class="site-id">
             <img src="img/lotuslogo.png" alt="sunset beach yoga logo">
             <h1>Sunset beach yoga</h1>
-           
+
         </div>
         <nav class="site-nav">
             <ul>
+                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#classes">Classes</a></li>
+                <li><a href="#classes">Book</a></li>
+                <li><a href="#classes">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -33,53 +39,116 @@
         <section class="hero">
             <div class="container">
                 <h1>Yoga in Paradise</h1>
-                
+
             </div>
         </section>
 
 
-        <section id="about">
+        <section id="about" class="dark">
 
             <div class="container">
 
-            <h2 class="section-heading">About</h2>
-            
-            
+                <h2 class="section-heading">About</h2>
+
+                <p> The warm voices in our over 600 5-star reviews across Tripadvisor/Yelp etc, will assure you that
+                    your yoga experience in Hawaii will be excellent and impact-fully memorable. Come Yoga with a Local
+                    - We are the longest running largest, grassroots community of nature loving travelers and locals.
+                    Founded as a life mission project a by local gal, Hawaii law grad/off beaten path explorer who went
+                    to live in India to train in Yoga and Mindfulness. </p>
+
+
+                <!-- <div class="row">
+
+                    <div class="one-fourth column">
+                        <p>Begin to breathe</p>
+                        <p>-then be in the moment…</p>
+                    </div>
+                </div> -->
+
+
+                <!-- <div class="one-thirds column">
+                    <a class="button">Instructor</a>
+                </div>
+                <div class="one-thirds column">
+                    <a class="button">Our mission</a>
+                </div> -->
 
             </div>
 
         </section>
 
-        <section id="classes">
+        <section id="classes" class="dark">
+
+
             <div class="container">
 
+                <h2 class="section-heading">Classes</h2>
+
+                <img src="img/lotuslogo.png" alt="sunset beach yoga logo">
+                <div class="one-thirds column">
+                    <a class="button">Instructor</a>
+                </div>
+                <img src="img/lotuslogo.png" alt="sunset beach yoga logo">
+                <div class="one-thirds column">
+                    <a class="button">Our mission</a>
+                </div>
+
             </div>
-            
         </section>
 
-        </main>
+
+        <section id="book" class="dark">
+            <div class="container">
+
+                <h2 class="section-heading">Book</h2>
+                <ul>
+
+                    <li><input class="inputs" type="text" name="class"></li>
+                    <li><input class="inputs" type="text" name="date"></li>
+                    <li><input class="inputs" type="text" name="number"></li>
+                </ul>
+            </div>
+
+        </section>
+
+        <section id="contact" class="dark">
+            <div class="container">
+
+                <img src="img/lotuslogo.png" alt="sunset beach yoga logo">
+                <p></p>
 
 
-<footer class="site-footer">
-    <nav class="site-nav">
-        <ul>
-            <li><a href="#typography">Typography</a></li>
-            <li><a href="#layout">Layout</a></li>
-        </ul>
-    </nav>
-
-</footer>
 
 
 
- <!-- SMOOTH SCROLL BY CHRIS FERDINANDI https://github.com/cferdinandi/smooth-scroll -->
- <script src="js/smooth-scroll.polyfills.min.js"></script>
- <script>
-     var scroll = new SmoothScroll('a[href*="#"]', {
-         speed: 800,
-         speedAsDuration: true
-     });
- </script>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="site-footer">
+        <nav class="site-nav">
+            <ul>
+                <li><a href="#typography">Typography</a></li>
+                <li><a href="#layout">Layout</a></li>
+            </ul>
+        </nav>
+
+    </footer>
+
+
+
+    <!-- SMOOTH SCROLL BY CHRIS FERDINANDI https://github.com/cferdinandi/smooth-scroll -->
+    <script src="js/smooth-scroll.polyfills.min.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 800,
+            speedAsDuration: true
+        });
+    </script>
 
 </body>
 
