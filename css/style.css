@@ -365,11 +365,15 @@ section {
 
 /* Form */
 
-
-
-
 form{
-  width:460px;
+  max-width:460px;
   margin:0 auto;
   align-items: center;
+}
+label {
+  display: block;
+}
+
+select {
+  width: 90%;
 }
