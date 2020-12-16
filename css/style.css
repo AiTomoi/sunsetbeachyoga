@@ -79,9 +79,13 @@ h3 {
 }
 
 /* LIMIT NMBER OF CHARACTERS PER LINE */
-P {
+p {
   max-width: 40em;
  
+}
+.quote {
+  padding: 3em 3em 3em 16em;
+  max-width: 10em;
 }
 
 /* HORIZONTAL LINE */
@@ -111,8 +115,7 @@ hr {
 
 /* SECTION heading*/
 .section-heading {
-  font-size: 2em;
-
+  font-size: 3em;
   font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -122,23 +125,29 @@ hr {
 
 }
 
-.section-heading {
-  font-size: 2em;
-  
+.dark {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
+
 
 /* BUTTONS */
 .button {
   display: inline-block;
-  background-color: pink;
+  /* background-color: pink; */
   color: #fff;
   text-decoration: none;
-  padding: 1em;
+  padding: .5em .75em .75em .75em;
+  border: 2px solid white;
   border-radius: 5px;
+  margin: .5em;
 }
+
 .button:hover {
-  background-color: #9e0000;
+  background-color: #bbeb39;
 }
+
 
 /* MEDIA  */
 /* Responsive Images */
@@ -244,8 +253,8 @@ body {
 
 /* SITE STRUCTURE */
 .site-header {
-  background: 　 #9e0000;
-  padding: em;
+  /* background: #9e0000; */
+  padding: 1em;
   text-align: center ;
   
 }
@@ -264,28 +273,34 @@ body {
   
 }
 
+.site-id h1 {
+  font-family: "maecenas";
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
 /* SITE FOOTER */
-.site-footer {
-  background: #9e0000;
+.site-footer,site nav {
+  color: #333;
   display: flex;
   justify-content: center;
 }
 .site-footer a {
-  color: white;
+  color: #333;
   text-decoration: none;
 }
-
 /* SITE-NAV */
 
 .site-nav {
   position: absolute;
   width: 100%;
-  padding-top: 0em;
+  padding-top: 1em;
+  font-weight: 300;
 }
 
 .site-nav ul {
   margin: 0;
-  padding: 0;
+  padding 0;
   list-style: none;
   display: flex;
   justify-content: center;
@@ -376,4 +391,49 @@ label {
 
 select {
   width: 90%;
+}
+
+
+
+
+
+label, input[type="text"], textarea {
+  width: 100%
+  
+}
+
+input, textarea {
+  background-color: white;
+  border: 1px white;
+  box-sizing: border-box;
+  border-radius:4px;
+  font-size: 30px;
+}
+
+.inputs{
+  width: 400px;
+}
+
+input[type="submit"]{
+background:#F47C66;
+border: none;
+color: white;
+font-size:17px;
+font-weight:bold;
+padding: 10px 20px;
+margin: 0 5px;
+}
+
+input[type="reset"] {
+background:white
+border: none;
+color: #F47C66;
+font-size: 17px;
+font-weight: bold;
+padding: 10px 20px;
+margin: 0 5px;
+}
+
+.btn-area {
+  display: flex;
 }
